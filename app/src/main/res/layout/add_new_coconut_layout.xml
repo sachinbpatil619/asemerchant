@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/menuItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textColorHint="@color/overlayBackground"
+            android:textSize="34dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/menuItemDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textColorHint="@color/overlayBackground"
+            android:textSize="34dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/menuItemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="per piece Price"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textColorHint="@color/overlayBackground"
+            android:textSize="34dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/menuItemWPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price per Weight"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textColorHint="@color/overlayBackground"
+            android:textSize="34dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/menuItemDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Discount"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textColorHint="@color/overlayBackground"
+            android:textSize="34dp" />
+
+        <Switch
+            android:id="@+id/swOutOfStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Out of Stock"
+            android:textSize="28dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnSelect"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="#000"
+                android:shadowColor="#000"
+                android:text="SELECT"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                app:cornerRadius="4dp" />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="#000"
+                android:shadowColor="#000"
+                android:text="UPLOAD"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                app:cornerRadius="4dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

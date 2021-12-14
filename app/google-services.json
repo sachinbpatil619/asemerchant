@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "785585039833",
+    "firebase_url": "https://asesolution-a4f8b-default-rtdb.firebaseio.com",
+    "project_id": "asesolution-a4f8b",
+    "storage_bucket": "asesolution-a4f8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785585039833:android:96deafd0929ff7ae2311c8",
+        "android_client_info": {
+          "package_name": "com.shimoga.asemerchantsoln"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785585039833-5ejngpjtlg9co42ap8ova3hk6fl997aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIWsrlwIkVXTQvRscx2o2vYqnP-tb4XMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785585039833-5ejngpjtlg9co42ap8ova3hk6fl997aq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785585039833:android:b662282a4822b6fe2311c8",
+        "android_client_info": {
+          "package_name": "com.shimoga.asesol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785585039833-h0u1osim72otcdsoca9sbvhpukht6o7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shimoga.asesol",
+            "certificate_hash": "aca22b17d86f2cc51ec0e51f9361cd86b08a0043"
+          }
+        },
+        {
+          "client_id": "785585039833-5ejngpjtlg9co42ap8ova3hk6fl997aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIWsrlwIkVXTQvRscx2o2vYqnP-tb4XMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785585039833-5ejngpjtlg9co42ap8ova3hk6fl997aq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785585039833:android:6d9298061cfa54cf2311c8",
+        "android_client_info": {
+          "package_name": "com.shimoga.asesolMerchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785585039833-5ejngpjtlg9co42ap8ova3hk6fl997aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIWsrlwIkVXTQvRscx2o2vYqnP-tb4XMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785585039833-5ejngpjtlg9co42ap8ova3hk6fl997aq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

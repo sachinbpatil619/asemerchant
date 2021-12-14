@@ -1,0 +1,128 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "com.shimoga.asesolMerchant"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.firebase:firebase-database:19.7.0'
+    implementation 'com.google.firebase:firebase-auth:20.0.4'
+    implementation 'com.google.firebase:firebase-storage:19.2.2'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'com.google.firebase:firebase-messaging:21.1.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //add-on Dependencies
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'//gif dependency
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation "androidx.recyclerview:recyclerview:1.2.0"
+    // For control over item selection of both touch and mouse driven selection
+    implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'com.hbb20:ccp:2.3.1'
+    implementation 'com.google.firebase:firebase-core:18.0.3'//firebase
+    implementation 'com.google.firebase:firebase-analytics:18.0.3'//firebase
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.1'//firebase
+    implementation 'com.firebaseui:firebase-ui-database:1.2.0'//firebase
+    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:27.1.1'
+    //OTP verification Pinview dependency
+    //slider
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.google.android.material:material:1.4.0-alpha02'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation platform('com.google.firebase:firebase-bom:27.0.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.cuberto:liquid-swipe:1.0.0'
+    implementation 'com.android.support:design:30.0.3'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.20"
+    implementation 'androidx.core:core:1.3.2'
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'com.airbnb.android:lottie:3.4.1'
+    implementation 'com.chaos.view:pinview:1.4.3'
+    //slider
+    implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    //firebase
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'com.hbb20:ccp:2.3.1'
+    //implementation 'com.github.jd-alexander:android-flat-button:v1.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation "androidx.recyclerview:recyclerview:1.2.0"
+    // For control over item selection of both touch and mouse driven selection
+    implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
+    //firebase
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'com.hbb20:ccp:2.3.1'
+    implementation 'com.google.firebase:firebase-core:18.0.3'
+    implementation 'com.google.firebase:firebase-auth:20.0.4'
+    implementation 'com.google.firebase:firebase-analytics:18.0.3'
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.1'
+    implementation 'com.firebaseui:firebase-ui-database:1.2.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:27.1.1'
+    //OTP verification Pinview dependency
+    implementation 'com.chaos.view:pinview:1.4.3'
+    //slider
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.github.mancj:MaterialSearchBar:0.8.5'
+    implementation 'com.jaredrummler:material-spinner:1.3.1'
+
+    implementation 'io.paperdb:paperdb:2.1'
+    implementation 'com.github.rey5137:material:1.2.4'
+}
